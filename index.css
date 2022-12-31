@@ -1,0 +1,89 @@
+#main_container {
+  width: 700px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  font-family: roman;
+  border-radius: 20px;
+  border: 3px solid #999;
+}
+
+#birth_date_input,
+#age_container {
+  text-align: center;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#age_container {
+  margin: 40px 5px;
+  padding: 20px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  font-weight: bolder;
+  background: #eee;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#calculate {
+  cursor: pointer;
+  text-align: center;
+  width: 300px;
+  padding: 5px;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #999;
+  border-radius: 100px;
+  background: #de3163;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#de3163),
+    to(#de3163)
+  );
+  background: -moz-linear-gradient(top, #de3163, #de3163);
+  font-weight: bold;
+  height: 38px;
+  box-shadow: 0 -8px inset;
+}
+
+#calculate:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#de3163),
+    to(#de3163)
+  );
+  background: -moz-linear-gradient(top, #de3163, #de3163);
+  margin-top: 50px;
+  height: 25px;
+  box-shadow: 0 -5px inset;
+}
+
+#calculate:active {
+  background: #ff00ff;
+  padding-top: 20px;
+  height: 15px;
+  box-shadow: 0 10px #000 inset;
+}
+
+#age {
+  padding: 15px;
+  border: 5px dashed rgb(252, 4, 4);
+  background-color: #28b463;
+}
+
+html {
+  background: url("https://images.hdqwalls.com/download/lake-minimal-green-4k-c0-3840x2160.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
